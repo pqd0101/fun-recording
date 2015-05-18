@@ -23,7 +23,7 @@ class RecordingSoundViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        // add a comment
+        // add a comment  
     }
     override func viewWillAppear(animated: Bool) {
         stopRecording.hidden = true
