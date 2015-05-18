@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184CD4EF1AFBCE4D00EFB66E /* PlayingSoundControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CD4EE1AFBCE4D00EFB66E /* PlayingSoundControllerViewController.swift */; };
 		1887A50E1AEFF6B600A6F9CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887A50D1AEFF6B600A6F9CF /* AppDelegate.swift */; };
-		1887A5101AEFF6B600A6F9CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887A50F1AEFF6B600A6F9CF /* ViewController.swift */; };
+		1887A5101AEFF6B600A6F9CF /* RecordingSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887A50F1AEFF6B600A6F9CF /* RecordingSoundViewController.swift */; };
 		1887A5131AEFF6B600A6F9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1887A5111AEFF6B600A6F9CF /* Main.storyboard */; };
 		1887A5151AEFF6B600A6F9CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1887A5141AEFF6B600A6F9CF /* Images.xcassets */; };
 		1887A5181AEFF6B600A6F9CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1887A5161AEFF6B600A6F9CF /* LaunchScreen.xib */; };
 		1887A5241AEFF6B600A6F9CF /* Fun_RecordingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887A5231AEFF6B600A6F9CF /* Fun_RecordingTests.swift */; };
+		18CEC1A21AFFBEBE0089CEA4 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CEC1A11AFFBEBE0089CEA4 /* movie_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184CD4EE1AFBCE4D00EFB66E /* PlayingSoundControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingSoundControllerViewController.swift; sourceTree = "<group>"; };
 		1887A5081AEFF6B600A6F9CF /* Fun Recording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun Recording.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1887A50C1AEFF6B600A6F9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1887A50D1AEFF6B600A6F9CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1887A50F1AEFF6B600A6F9CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1887A50F1AEFF6B600A6F9CF /* RecordingSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingSoundViewController.swift; sourceTree = "<group>"; };
 		1887A5121AEFF6B600A6F9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1887A5141AEFF6B600A6F9CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1887A5171AEFF6B600A6F9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1887A51D1AEFF6B600A6F9CF /* Fun RecordingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun RecordingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1887A5221AEFF6B600A6F9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1887A5231AEFF6B600A6F9CF /* Fun_RecordingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_RecordingTests.swift; sourceTree = "<group>"; };
+		18CEC1A11AFFBEBE0089CEA4 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				1887A50D1AEFF6B600A6F9CF /* AppDelegate.swift */,
-				1887A50F1AEFF6B600A6F9CF /* ViewController.swift */,
+				184CD4EE1AFBCE4D00EFB66E /* PlayingSoundControllerViewController.swift */,
+				1887A50F1AEFF6B600A6F9CF /* RecordingSoundViewController.swift */,
 				1887A5111AEFF6B600A6F9CF /* Main.storyboard */,
 				1887A5141AEFF6B600A6F9CF /* Images.xcassets */,
 				1887A5161AEFF6B600A6F9CF /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		1887A50B1AEFF6B600A6F9CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18CEC1A11AFFBEBE0089CEA4 /* movie_quote.mp3 */,
 				1887A50C1AEFF6B600A6F9CF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,7 @@
 			files = (
 				1887A5131AEFF6B600A6F9CF /* Main.storyboard in Resources */,
 				1887A5181AEFF6B600A6F9CF /* LaunchScreen.xib in Resources */,
+				18CEC1A21AFFBEBE0089CEA4 /* movie_quote.mp3 in Resources */,
 				1887A5151AEFF6B600A6F9CF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1887A5101AEFF6B600A6F9CF /* ViewController.swift in Sources */,
+				184CD4EF1AFBCE4D00EFB66E /* PlayingSoundControllerViewController.swift in Sources */,
+				1887A5101AEFF6B600A6F9CF /* RecordingSoundViewController.swift in Sources */,
 				1887A50E1AEFF6B600A6F9CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Fun Recording/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Fun Recording/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +419,7 @@
 				1887A5291AEFF6B600A6F9CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1887A52A1AEFF6B600A6F9CF /* Build configuration list for PBXNativeTarget "Fun RecordingTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				1887A52C1AEFF6B600A6F9CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
